@@ -1,0 +1,13 @@
+export const JOIN_MATCH = "join_match"
+export const LEAVE_MATCH ='leave_match'
+export const STRICK_CHANGED = "strick_changed"
+export const BALL_UPDATED = "ball_updated"
+export const LIVE_MATCHES_ROOM = "live_matches_room"
+export const MATCH_CREATED = "match_created"
+export const TOSS_UPDATED = "toss_updated"
+export const LIVE_UPDATE = "live_update"
+export const NEW_BATSMANN = "new_batsman"
+export const NEW_BOWLER = "new_bowler"
+export const NEW_OPENING_PLAYERS = "new_opening_players"
+export const SOCKET_ENDPOINT = "https://crickboardv2.herokuapp.com"
+export const CHANGE_INNINGS = "change_innings"

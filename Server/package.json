@@ -1,0 +1,54 @@
+{
+  "name": "crickboard-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --testTimeout=20000 --runInBand",
+    "standard": "standard --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.4.2",
+    "sequelize": "^6.3.5",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nock": "^13.0.4",
+    "sequelize-cli": "^6.2.0",
+    "standard": "^16.0.1",
+    "supertest": "^6.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "standard": {
+    "ignore": [
+      "/__tests__/",
+      "/configs/"
+    ]
+  }
+}
